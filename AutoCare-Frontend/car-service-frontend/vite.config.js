@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "https://car-service-frontend-nu.vercel.app/",
+        target: "https://car-service-actualfrontend.vercel.app/",
         changeOrigin: true
       }
     }
